@@ -1,0 +1,8 @@
+---
+- name: reload systemd
+  sudo: yes
+  shell: systemctl daemon-reload
+
+- name: enable docker downloader service
+  service: name=static-docker.service enabled=yes state=started
+  sudo: yes
