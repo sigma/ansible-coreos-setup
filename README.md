@@ -1,7 +1,7 @@
 coreos-setup
 ============
 
-current version: 0.1.1
+current version: 0.2.0
 Add basic configuration to CoreOS node
 
 Example Playbook
